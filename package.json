@@ -5,7 +5,10 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format-check": "prettier --check .",
+    "start": "npm run lint && npm run format && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
