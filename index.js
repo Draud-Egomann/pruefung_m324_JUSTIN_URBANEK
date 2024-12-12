@@ -1,3 +1,6 @@
-import chalk from "chalk";
+let myUnusedVariable = 42;
 
-console.log(chalk.blue("It works"));
+let someVariable = 10;
+if (someVariable == "10") {
+  console.log("intentional linting error.");
+}
