@@ -1,4 +1,4 @@
-const myUnusedVariable = 42;
+const myUnusedVariable = 73;
 const someVariable = 10;
 
 if (someVariable >= myUnusedVariable) {
