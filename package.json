@@ -8,7 +8,8 @@
     "lint": "eslint .",
     "format": "prettier --write .",
     "format-check": "prettier --check .",
-    "start": "npm run lint && npm run format && node index.js",
+    "build-md": "python md2html.py",
+    "start": "npm run build-md && npm run lint && npm run format && node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
